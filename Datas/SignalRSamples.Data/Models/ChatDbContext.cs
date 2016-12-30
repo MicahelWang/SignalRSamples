@@ -1,8 +1,8 @@
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using SignalRChat.Data.Models.Mapping;
+using SignalRSamples.Data.Models.Mapping;
+using SignalRSamples.Infrastructure;
 
-namespace SignalRChat.Data.Models
+namespace SignalRSamples.Data.Models
 {
     public partial class ChatDbContext : DbContext
     {

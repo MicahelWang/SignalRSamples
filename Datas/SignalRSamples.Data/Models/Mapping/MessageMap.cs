@@ -1,7 +1,6 @@
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace SignalRChat.Data.Models.Mapping
+namespace SignalRSamples.Data.Models.Mapping
 {
     public class MessageMap : EntityTypeConfiguration<Message>
     {

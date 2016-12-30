@@ -1,8 +1,7 @@
-using System;
 using System.Collections.Generic;
-using SignalRChat.Infrastructure;
+using SignalRSamples.Infrastructure;
 
-namespace SignalRChat.Data.Models
+namespace SignalRSamples.Data.Models
 {
     public partial class User: IEntity
     {
