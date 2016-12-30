@@ -11,7 +11,7 @@ using SignalRSamples.Data.Models;
 
 namespace SignalRSamples.Portal.Controllers
 {
-    [Authorize]
+    
     public class UserController : Controller
     {
         private ChatDbContext db = new ChatDbContext();

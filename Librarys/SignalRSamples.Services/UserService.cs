@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using SignalRSamples.Data.Models;
+using SignalRSamples.Infrastructure;
 using SignalRSamples.Infrastructure.Data;
 
 namespace SignalRSamples.Services
 {
-    public class UserService
+    public class UserService: IDependency
     {
         private readonly IRepository<User> _repository;
 

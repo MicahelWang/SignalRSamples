@@ -8,7 +8,7 @@ using SignalRSamples.Services;
 
 namespace SignalRSamples.Portal.Controllers
 {
-    [Authorize]
+    
     public class AccountController : Controller
     {
         private readonly UserService _userService;
@@ -115,7 +115,7 @@ namespace SignalRSamples.Portal.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
+        public  ActionResult Login(LoginViewModel model, string returnUrl)
         {
             if (!ModelState.IsValid)
             {

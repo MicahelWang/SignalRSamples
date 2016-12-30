@@ -2,12 +2,13 @@
 using System.Linq;
 using System.Threading.Tasks;
 using SignalRSamples.Data.Models;
+using SignalRSamples.Infrastructure;
 using SignalRSamples.Infrastructure.Data;
 using SignalRSamples.Models.ViewModels;
 
 namespace SignalRSamples.Services
 {
-    public class AccountService
+    public class AccountService : IDependency
     {
         private readonly IRepository<Account> _repository;
 

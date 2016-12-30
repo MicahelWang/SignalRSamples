@@ -1,10 +1,11 @@
 using System;
 using SignalRSamples.Data.Models;
+using SignalRSamples.Infrastructure;
 using SignalRSamples.Infrastructure.Data;
 
 namespace SignalRSamples.Services
 {
-    public class MessageService
+    public class MessageService : IDependency
     {
         private readonly IRepository<Message> _repository;
 

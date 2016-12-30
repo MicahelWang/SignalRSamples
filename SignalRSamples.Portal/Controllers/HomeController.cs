@@ -10,6 +10,7 @@ namespace SignalRSamples.Portal.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 

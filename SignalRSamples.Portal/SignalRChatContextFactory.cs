@@ -3,6 +3,7 @@ using System.Web;
 using System.Data.Entity;
 using SignalRSamples.Infrastructure.Data.Ef;
 using SignalRSamples.Data.Models;
+using SignalRSamples.Infrastructure;
 
 namespace SignalRSamples.Portal
 {
